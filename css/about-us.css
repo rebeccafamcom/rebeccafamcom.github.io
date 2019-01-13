@@ -33,3 +33,58 @@ header li a {
   color: white;
   text-decoration: none;
 }
+
+p {
+  font-size: 20px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1 {
+  color: white;
+  background-color: skyblue;
+  text-align: center;
+}
+
+* {
+ box-sizing: border-box;
+}
+
+*:before,
+*:after {
+ box-sizing: border-box;
+}
+
+html,
+body {
+ height: 100%;
+ position: relative;
+}
+
+.main-container {
+ min-height: 100vh; /* will cover the 100% of viewport */
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 80px; /* height of your footer */
+}
+
+footer {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ background-color: tomato;
+ align-items: center;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: Stencil Std;
+}

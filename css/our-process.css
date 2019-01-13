@@ -57,3 +57,59 @@ div h3 {
   border: 4px solid white;
   font-size: 40px;
 }
+
+p {
+  font-size: 20px;
+  padding: 15px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1 {
+  color: white;
+  background-color: skyblue;
+  text-align: center;
+}
+
+* {
+ box-sizing: border-box;
+}
+
+*:before,
+*:after {
+ box-sizing: border-box;
+}
+
+html,
+body {
+ height: 100%;
+ position: relative;
+}
+
+.main-container {
+ min-height: 100vh; /* will cover the 100% of viewport */
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 80px; /* height of your footer */
+}
+
+footer {
+ bottom: 0;
+ width: 100%;
+ position: absolute;
+ background-color: tomato;
+ align-items: center;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: Stencil Std;
+}
